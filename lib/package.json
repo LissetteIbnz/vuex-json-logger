@@ -1,0 +1,39 @@
+{
+  "name": "vuex-json-logger",
+  "version": "1.0.0",
+  "description": "A logger for Vuex that exports the state in a JSON file",
+  "main": "dist/vuex-json-logger.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LissetteIbnz/vuex-json-logger.git"
+  },
+  "keywords": [
+    "vuex",
+    "vue",
+    "logger",
+    "json"
+  ],
+  "author": {
+    "name": "Sara Lissette Luis Ibáñez",
+    "email": "lissette.ibnz@gmail.com",
+    "url": "https://github.com/LissetteIbnz/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LissetteIbnz/vuex-json-logger/issues"
+  },
+  "homepage": "https://github.com/LissetteIbnz/vuex-json-logger#readme",
+  "files": [
+    "dist",
+    "src",
+    "package.json",
+    "README.md"
+  ],
+  "devDependencies": {},
+  "dependencies": {
+    "file-saver": "^2.0.0-rc.3"
+  }
+}
