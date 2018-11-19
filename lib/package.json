@@ -1,6 +1,6 @@
 {
   "name": "vuex-json-logger",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A logger for Vuex that exports the state in a JSON file",
   "main": "dist/vuex-json-logger.js",
   "scripts": {
