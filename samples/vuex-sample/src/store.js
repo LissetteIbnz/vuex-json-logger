@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
-import logger from '../../../lib/src/VuexJsonLogger';
+import VuexJsonLogger from '../../../lib/src/index.js';
 
 Vue.use(Vuex);
 
@@ -22,5 +22,5 @@ export const store = new Vuex.Store({
     hola(){},
     exportToJson(state) {},
   },
-  plugins: [logger({mutationListener: "hola"})],
+  plugins: [VuexJsonLogger({mutationListener: "hola"})],
 });
