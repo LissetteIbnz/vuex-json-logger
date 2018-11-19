@@ -32,8 +32,7 @@
     "package.json",
     "README.md"
   ],
-  "devDependencies": {},
   "dependencies": {
-    "file-saver": "^2.0.0-rc.3"
+    "file-saver": "^2.0.0"
   }
 }
